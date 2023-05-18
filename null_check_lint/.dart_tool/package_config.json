@@ -248,13 +248,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "null_check_before_non_null_assertion",
+      "name": "null_check_lint",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-05-18T14:19:22.118377Z",
+  "generated": "2023-05-18T15:45:08.438068Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

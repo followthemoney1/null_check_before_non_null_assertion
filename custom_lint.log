@@ -575,3 +575,454 @@ at:
 
 The Dart VM service is listening on http://127.0.0.1:53110/39qHgfV6q5U=/
 The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53110/39qHgfV6q5U=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A53110%2F39qHgfV6q5U%3D%2Fws
+The Dart VM service is listening on http://127.0.0.1:53418/DYz6_EQclBw=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53418/DYz6_EQclBw=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A53418%2FDYz6_EQclBw%3D%2Fws
+[custom_lint] 2023-05-18T16:38:12.094389 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T16:38:12.094389 import 'package:null_check_lint/null_check_lint.dart' as null_check_lint;
+[custom_lint] 2023-05-18T16:38:12.094389        ^
+[custom_lint] 2023-05-18T16:38:12.094389 lib/custom_lint_client.dart:13:41: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T16:38:12.094389     {'null_check_lint': null_check_lint.createPlugin,
+[custom_lint] 2023-05-18T16:38:12.094389                                         ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T16:38:12.094389
+[custom_lint] 2023-05-18T16:38:12.094389
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:53891/xpSrl-c3nPQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53891/xpSrl-c3nPQ=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A53891%2FxpSrl-c3nPQ%3D%2Fws
+[custom_lint] 2023-05-18T16:42:31.756043 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T16:42:31.756043 import 'package:null_check_lint/null_check_lint.dart' as null_check_lint;
+[custom_lint] 2023-05-18T16:42:31.756043        ^
+[custom_lint] 2023-05-18T16:42:31.756043 lib/custom_lint_client.dart:13:41: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T16:42:31.756043     {'null_check_lint': null_check_lint.createPlugin,
+[custom_lint] 2023-05-18T16:42:31.756043                                         ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T16:42:31.756043
+[custom_lint] 2023-05-18T16:42:31.756043
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:53945/lChiklXoGq0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53945/lChiklXoGq0=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A53945%2FlChiklXoGq0%3D%2Fws
+[custom_lint] 2023-05-18T16:42:50.149762 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T16:42:50.149762 import 'package:null_check_lint/null_check_lint.dart' as null_check_lint;
+[custom_lint] 2023-05-18T16:42:50.149762        ^
+[custom_lint] 2023-05-18T16:42:50.149762 lib/custom_lint_client.dart:13:41: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T16:42:50.149762     {'null_check_lint': null_check_lint.createPlugin,
+[custom_lint] 2023-05-18T16:42:50.149762                                         ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T16:42:50.149762
+[custom_lint] 2023-05-18T16:42:50.149762
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:54065/HIe1A4Y-pXA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54065/HIe1A4Y-pXA=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A54065%2FHIe1A4Y-pXA%3D%2Fws
+[custom_lint] 2023-05-18T16:44:42.160698 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T16:44:42.160698 import 'package:null_check_lint/null_check_lint.dart' as null_check_lint;
+[custom_lint] 2023-05-18T16:44:42.160698        ^
+[custom_lint] 2023-05-18T16:44:42.160698 lib/custom_lint_client.dart:13:41: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T16:44:42.160698     {'null_check_lint': null_check_lint.createPlugin,
+[custom_lint] 2023-05-18T16:44:42.160698                                         ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T16:44:42.160698
+[custom_lint] 2023-05-18T16:44:42.160698
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+[custom_lint] 2023-05-18T16:44:42.187679 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:612:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2023-05-18T16:44:42.187679 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2023-05-18T16:44:42.187679 <asynchronous suspension>
+[custom_lint] 2023-05-18T16:44:42.187679 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2023-05-18T16:44:42.187679 <asynchronous suspension>
+[custom_lint] 2023-05-18T16:44:42.187679 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:82:7)
+[custom_lint] 2023-05-18T16:44:42.187679 <asynchronous suspension>
+[custom_lint] 2023-05-18T16:44:42.187679
+The Dart VM service is listening on http://127.0.0.1:54143/mUvddEJoswQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54143/mUvddEJoswQ=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A54143%2FmUvddEJoswQ%3D%2Fws
+[custom_lint] 2023-05-18T16:45:19.417573 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T16:45:19.417573 import 'package:null_check_lint/null_check_lint.dart' as null_check_lint;
+[custom_lint] 2023-05-18T16:45:19.417573        ^
+[custom_lint] 2023-05-18T16:45:19.417573 lib/custom_lint_client.dart:13:41: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T16:45:19.417573     {'null_check_lint': null_check_lint.createPlugin,
+[custom_lint] 2023-05-18T16:45:19.417573                                         ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T16:45:19.417573
+[custom_lint] 2023-05-18T16:45:19.417573
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:54168/xjEL91Mxax4=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54168/xjEL91Mxax4=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A54168%2FxjEL91Mxax4%3D%2Fws
+The Dart VM service is listening on http://127.0.0.1:54251/prrTop6M6KA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54251/prrTop6M6KA=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A54251%2FprrTop6M6KA%3D%2Fws
+The Dart VM service is listening on http://127.0.0.1:55302/OgnQnTdrUU0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:55302/OgnQnTdrUU0=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A55302%2FOgnQnTdrUU0%3D%2Fws
+The Dart VM service is listening on http://127.0.0.1:56374/RFkH_L1CRzc=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56374/RFkH_L1CRzc=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A56374%2FRFkH_L1CRzc%3D%2Fws
+The Dart VM service is listening on http://127.0.0.1:56436/tPrgdrAZNzo=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56436/tPrgdrAZNzo=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A56436%2FtPrgdrAZNzo%3D%2Fws
+[null_check_before_non_null_assertion] 2023-05-18T17:17:30.573267
+[null_check_before_non_null_assertion] 2023-05-18T17:17:36.603784
+[null_check_before_non_null_assertion] 2023-05-18T17:17:39.777155
+[null_check_before_non_null_assertion] 2023-05-18T17:17:52.376751
+[null_check_before_non_null_assertion] 2023-05-18T17:18:49.330679
+[null_check_before_non_null_assertion] 2023-05-18T17:18:49.661868
+The Dart VM service is listening on http://127.0.0.1:58350/Sg_o02j6DuM=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58350/Sg_o02j6DuM=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A58350%2FSg_o02j6DuM%3D%2Fws
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:16:40: Error: Required named parameter 'nullabilityPatterns' must be provided.
+[custom_lint] 2023-05-18T17:45:21.129220         NullCheckBeforeNonNullAssertion(),
+[custom_lint] 2023-05-18T17:45:21.129220                                        ^
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:27:3: Context: Found this candidate, but the arguments don't match.
+[custom_lint] 2023-05-18T17:45:21.129220   NullCheckBeforeNonNullAssertion({
+[custom_lint] 2023-05-18T17:45:21.129220   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:120:21: Error: 'TypeName' isn't a type.
+[custom_lint] 2023-05-18T17:45:21.129220         if (type is TypeName && _isMatchingExtension(type.name)) {
+[custom_lint] 2023-05-18T17:45:21.129220                     ^^^^^^^^
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:128:85: Error: The getter 'token' isn't defined for the class 'Expression'.
+[custom_lint] 2023-05-18T17:45:21.129220  - 'Expression' is from 'package:analyzer/dart/ast/ast.dart' ('/Users/dmitrydyachenko/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib/dart/ast/ast.dart').
+[custom_lint] 2023-05-18T17:45:21.129220 Try correcting the name to the name of an existing getter, or defining a getter or field named 'token'.
+[custom_lint] 2023-05-18T17:45:21.129220                   if (operand is SimpleIdentifier && operand.token.offset == target.token.offset) {
+[custom_lint] 2023-05-18T17:45:21.129220                                                                                     ^^^^^
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:131:51: Error: The getter 'code' isn't defined for the class 'NullCheckBeforeNonNullAssertion2'.
+[custom_lint] 2023-05-18T17:45:21.129220  - 'NullCheckBeforeNonNullAssertion2' is from 'package:null_check_lint/null_check_lint.dart' ('/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart').
+[custom_lint] 2023-05-18T17:45:21.129220 Try correcting the name to the name of an existing getter, or defining a getter or field named 'code'.
+[custom_lint] 2023-05-18T17:45:21.129220                     reporter.reportErrorForOffset(code, offset, length);
+[custom_lint] 2023-05-18T17:45:21.129220                                                   ^^^^
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:147:46: Error: The getter 'token' isn't defined for the class 'Expression'.
+[custom_lint] 2023-05-18T17:45:21.129220  - 'Expression' is from 'package:analyzer/dart/ast/ast.dart' ('/Users/dmitrydyachenko/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib/dart/ast/ast.dart').
+[custom_lint] 2023-05-18T17:45:21.129220 Try correcting the name to the name of an existing getter, or defining a getter or field named 'token'.
+[custom_lint] 2023-05-18T17:45:21.129220     return pattern.operator.offset == target.token.offset && pattern.pattern.matches(target);
+[custom_lint] 2023-05-18T17:45:21.129220                                              ^^^^^
+[custom_lint] 2023-05-18T17:45:21.129220 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:147:78: Error: The method 'matches' isn't defined for the class 'DartPattern'.
+[custom_lint] 2023-05-18T17:45:21.129220  - 'DartPattern' is from 'package:analyzer/dart/ast/ast.dart' ('/Users/dmitrydyachenko/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib/dart/ast/ast.dart').
+[custom_lint] 2023-05-18T17:45:21.129220 Try correcting the name to the name of an existing method, or defining a method named 'matches'.
+[custom_lint] 2023-05-18T17:45:21.129220     return pattern.operator.offset == target.token.offset && pattern.pattern.matches(target);
+[custom_lint] 2023-05-18T17:45:21.129220                                                                              ^^^^^^^
+[custom_lint] 2023-05-18T17:45:21.129220
+[custom_lint] 2023-05-18T17:45:21.129220
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:58714/5FyneoAXWFA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58714/5FyneoAXWFA=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A58714%2F5FyneoAXWFA%3D%2Fws
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:16:40: Error: Required named parameter 'nullabilityPatterns' must be provided.
+[custom_lint] 2023-05-18T17:50:25.250766         NullCheckBeforeNonNullAssertion(),
+[custom_lint] 2023-05-18T17:50:25.250766                                        ^
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:27:3: Context: Found this candidate, but the arguments don't match.
+[custom_lint] 2023-05-18T17:50:25.250766   NullCheckBeforeNonNullAssertion({
+[custom_lint] 2023-05-18T17:50:25.250766   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:126:21: Error: 'TypeName' isn't a type.
+[custom_lint] 2023-05-18T17:50:25.250766         if (type is TypeName && _isMatchingExtension(type.name)) {
+[custom_lint] 2023-05-18T17:50:25.250766                     ^^^^^^^^
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:134:85: Error: The getter 'token' isn't defined for the class 'Expression'.
+[custom_lint] 2023-05-18T17:50:25.250766  - 'Expression' is from 'package:analyzer/dart/ast/ast.dart' ('/Users/dmitrydyachenko/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib/dart/ast/ast.dart').
+[custom_lint] 2023-05-18T17:50:25.250766 Try correcting the name to the name of an existing getter, or defining a getter or field named 'token'.
+[custom_lint] 2023-05-18T17:50:25.250766                   if (operand is SimpleIdentifier && operand.token.offset == target.token.offset) {
+[custom_lint] 2023-05-18T17:50:25.250766                                                                                     ^^^^^
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:137:51: Error: The getter 'code' isn't defined for the class 'NullCheckBeforeNonNullAssertion2'.
+[custom_lint] 2023-05-18T17:50:25.250766  - 'NullCheckBeforeNonNullAssertion2' is from 'package:null_check_lint/null_check_lint.dart' ('/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart').
+[custom_lint] 2023-05-18T17:50:25.250766 Try correcting the name to the name of an existing getter, or defining a getter or field named 'code'.
+[custom_lint] 2023-05-18T17:50:25.250766                     reporter.reportErrorForOffset(code, offset, length);
+[custom_lint] 2023-05-18T17:50:25.250766                                                   ^^^^
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:153:46: Error: The getter 'token' isn't defined for the class 'Expression'.
+[custom_lint] 2023-05-18T17:50:25.250766  - 'Expression' is from 'package:analyzer/dart/ast/ast.dart' ('/Users/dmitrydyachenko/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib/dart/ast/ast.dart').
+[custom_lint] 2023-05-18T17:50:25.250766 Try correcting the name to the name of an existing getter, or defining a getter or field named 'token'.
+[custom_lint] 2023-05-18T17:50:25.250766     return pattern.operator.offset == target.token.offset && pattern.pattern.matches(target);
+[custom_lint] 2023-05-18T17:50:25.250766                                              ^^^^^
+[custom_lint] 2023-05-18T17:50:25.250766 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:153:78: Error: The method 'matches' isn't defined for the class 'DartPattern'.
+[custom_lint] 2023-05-18T17:50:25.250766  - 'DartPattern' is from 'package:analyzer/dart/ast/ast.dart' ('/Users/dmitrydyachenko/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib/dart/ast/ast.dart').
+[custom_lint] 2023-05-18T17:50:25.250766 Try correcting the name to the name of an existing method, or defining a method named 'matches'.
+[custom_lint] 2023-05-18T17:50:25.250766     return pattern.operator.offset == target.token.offset && pattern.pattern.matches(target);
+[custom_lint] 2023-05-18T17:50:25.250766                                                                              ^^^^^^^
+[custom_lint] 2023-05-18T17:50:25.250766
+[custom_lint] 2023-05-18T17:50:25.250766
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:58790/3oKH7ndBpkc=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58790/3oKH7ndBpkc=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A58790%2F3oKH7ndBpkc%3D%2Fws
+[null_check_before_non_null_assertion] 2023-05-18T17:51:12.221659
+[null_check_before_non_null_assertion] 2023-05-18T17:51:12.221972
+[null_check_before_non_null_assertion] 2023-05-18T17:54:58.476535
+[null_check_before_non_null_assertion] 2023-05-18T17:54:58.476800
+[null_check_before_non_null_assertion] 2023-05-18T17:55:00.440725
+[null_check_before_non_null_assertion] 2023-05-18T17:55:00.440998
+[null_check_before_non_null_assertion] 2023-05-18T17:55:17.113178
+[null_check_before_non_null_assertion] 2023-05-18T17:55:17.113496
+[null_check_before_non_null_assertion] 2023-05-18T17:55:18.590062
+[null_check_before_non_null_assertion] 2023-05-18T17:55:18.590672
+[null_check_before_non_null_assertion] 2023-05-18T17:55:18.912545
+[null_check_before_non_null_assertion] 2023-05-18T17:55:18.912879
+[null_check_before_non_null_assertion] 2023-05-18T17:55:20.448280
+[null_check_before_non_null_assertion] 2023-05-18T17:55:20.448617
+[null_check_before_non_null_assertion] 2023-05-18T17:57:23.837027
+[null_check_before_non_null_assertion] 2023-05-18T17:57:23.837348
+[null_check_before_non_null_assertion] 2023-05-18T17:57:25.240725
+[null_check_before_non_null_assertion] 2023-05-18T17:57:25.241055
+[null_check_before_non_null_assertion] 2023-05-18T17:57:54.028537
+[null_check_before_non_null_assertion] 2023-05-18T17:57:54.028826
+The Dart VM service is listening on http://127.0.0.1:59331/0mOBSfi09A0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:59331/0mOBSfi09A0=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A59331%2F0mOBSfi09A0%3D%2Fws
+[null_check_before_non_null_assertion] 2023-05-18T17:58:23.038204
+[null_check_before_non_null_assertion] 2023-05-18T17:58:23.038548
+[null_check_before_non_null_assertion] 2023-05-18T18:06:17.413692
+[null_check_before_non_null_assertion] 2023-05-18T18:06:17.413986
+The Dart VM service is listening on http://127.0.0.1:59932/iM9BVNRCRZY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:59932/iM9BVNRCRZY=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A59932%2FiM9BVNRCRZY%3D%2Fws
+[null_check_before_non_null_assertion] 2023-05-18T18:06:45.403397
+[null_check_before_non_null_assertion] 2023-05-18T18:06:45.403869
+[null_check_before_non_null_assertion] 2023-05-18T18:07:10.361810
+[null_check_before_non_null_assertion] 2023-05-18T18:07:10.362128
+[null_check_before_non_null_assertion] 2023-05-18T18:07:10.444799
+[null_check_before_non_null_assertion] 2023-05-18T18:07:10.445133
+[null_check_before_non_null_assertion] 2023-05-18T18:07:17.485216
+[null_check_before_non_null_assertion] 2023-05-18T18:07:17.485484
+[null_check_before_non_null_assertion] 2023-05-18T18:07:18.830671
+[null_check_before_non_null_assertion] 2023-05-18T18:07:18.830906
+[null_check_before_non_null_assertion] 2023-05-18T18:07:19.133872
+[null_check_before_non_null_assertion] 2023-05-18T18:07:19.134276
+[null_check_before_non_null_assertion] 2023-05-18T18:07:19.425266
+[null_check_before_non_null_assertion] 2023-05-18T18:07:19.425560
+[null_check_before_non_null_assertion] 2023-05-18T18:10:17.335885
+[null_check_before_non_null_assertion] 2023-05-18T18:10:17.336204
+[null_check_before_non_null_assertion] 2023-05-18T18:10:17.341952
+[null_check_before_non_null_assertion] 2023-05-18T18:17:35.636942
+[null_check_before_non_null_assertion] 2023-05-18T18:17:35.637284
+[null_check_before_non_null_assertion] 2023-05-18T18:17:35.665108
+[null_check_before_non_null_assertion] 2023-05-18T18:17:35.665357
+[null_check_before_non_null_assertion] 2023-05-18T18:17:58.850952
+[null_check_before_non_null_assertion] 2023-05-18T18:17:58.851301
+[null_check_before_non_null_assertion] 2023-05-18T18:18:04.383057
+[null_check_before_non_null_assertion] 2023-05-18T18:18:07.145496
+[null_check_before_non_null_assertion] 2023-05-18T18:18:07.145818
+[null_check_before_non_null_assertion] 2023-05-18T18:18:18.607942
+[null_check_before_non_null_assertion] 2023-05-18T18:18:18.608210
+[null_check_before_non_null_assertion] 2023-05-18T18:18:32.574541
+[null_check_before_non_null_assertion] 2023-05-18T18:18:32.574822
+[null_check_before_non_null_assertion] 2023-05-18T18:18:34.315839
+[null_check_before_non_null_assertion] 2023-05-18T18:18:34.316197
+[null_check_before_non_null_assertion] 2023-05-18T18:18:59.840714
+[null_check_before_non_null_assertion] 2023-05-18T18:18:59.841016
+[null_check_before_non_null_assertion] 2023-05-18T18:19:05.325870
+[null_check_before_non_null_assertion] 2023-05-18T18:19:05.326204
+[null_check_before_non_null_assertion] 2023-05-18T18:19:05.332662
+[null_check_before_non_null_assertion] 2023-05-18T18:19:05.333023
+[null_check_before_non_null_assertion] 2023-05-18T18:19:11.486451
+[null_check_before_non_null_assertion] 2023-05-18T18:19:11.486876
+[null_check_before_non_null_assertion] 2023-05-18T18:19:20.567598
+[null_check_before_non_null_assertion] 2023-05-18T18:19:20.568001
+[null_check_before_non_null_assertion] 2023-05-18T18:19:20.876655
+[null_check_before_non_null_assertion] 2023-05-18T18:19:20.876941
+[null_check_before_non_null_assertion] 2023-05-18T18:19:20.929956
+[null_check_before_non_null_assertion] 2023-05-18T18:19:20.930197
+[null_check_before_non_null_assertion] 2023-05-18T18:19:21.519278
+[null_check_before_non_null_assertion] 2023-05-18T18:19:21.519616
+[null_check_before_non_null_assertion] 2023-05-18T18:19:22.161809
+[null_check_before_non_null_assertion] 2023-05-18T18:19:22.162104
+[null_check_before_non_null_assertion] 2023-05-18T18:19:22.863877
+[null_check_before_non_null_assertion] 2023-05-18T18:19:22.864162
+[null_check_before_non_null_assertion] 2023-05-18T18:19:24.074719
+[null_check_before_non_null_assertion] 2023-05-18T18:19:24.075034
+[null_check_before_non_null_assertion] 2023-05-18T18:19:24.100886
+[null_check_before_non_null_assertion] 2023-05-18T18:19:24.101413
+[null_check_before_non_null_assertion] 2023-05-18T18:19:24.217685
+[null_check_before_non_null_assertion] 2023-05-18T18:19:24.217957
+[null_check_before_non_null_assertion] 2023-05-18T18:19:25.028554
+[null_check_before_non_null_assertion] 2023-05-18T18:19:25.028868
+[null_check_before_non_null_assertion] 2023-05-18T18:19:25.699055
+[null_check_before_non_null_assertion] 2023-05-18T18:19:25.699359
+[null_check_before_non_null_assertion] 2023-05-18T18:19:26.152946
+[null_check_before_non_null_assertion] 2023-05-18T18:19:26.153310
+[null_check_before_non_null_assertion] 2023-05-18T18:19:29.516055
+[null_check_before_non_null_assertion] 2023-05-18T18:19:29.516378
+[null_check_before_non_null_assertion] 2023-05-18T18:19:29.516517
+[null_check_before_non_null_assertion] 2023-05-18T18:19:32.571982
+[null_check_before_non_null_assertion] 2023-05-18T18:19:32.572275
+[null_check_before_non_null_assertion] 2023-05-18T18:20:03.939279
+[null_check_before_non_null_assertion] 2023-05-18T18:20:03.939536
+[null_check_before_non_null_assertion] 2023-05-18T18:20:03.974970
+[null_check_before_non_null_assertion] 2023-05-18T18:20:03.975219
+[null_check_before_non_null_assertion] 2023-05-18T18:20:04.343545
+[null_check_before_non_null_assertion] 2023-05-18T18:20:04.343862
+[null_check_before_non_null_assertion] 2023-05-18T18:20:21.934758
+[null_check_before_non_null_assertion] 2023-05-18T18:20:21.935113
+[null_check_before_non_null_assertion] 2023-05-18T18:20:21.939949
+[null_check_before_non_null_assertion] 2023-05-18T18:20:21.940173
+[null_check_before_non_null_assertion] 2023-05-18T18:20:30.556943
+[null_check_before_non_null_assertion] 2023-05-18T18:20:30.557333
+[null_check_before_non_null_assertion] 2023-05-18T18:20:40.671326
+[null_check_before_non_null_assertion] 2023-05-18T18:20:40.671602
+[null_check_before_non_null_assertion] 2023-05-18T18:20:40.673877
+[null_check_before_non_null_assertion] 2023-05-18T18:20:40.674115
+[null_check_before_non_null_assertion] 2023-05-18T18:20:40.972034
+[null_check_before_non_null_assertion] 2023-05-18T18:20:42.763509
+[null_check_before_non_null_assertion] 2023-05-18T18:20:42.763856
+[null_check_before_non_null_assertion] 2023-05-18T18:20:44.107206
+[null_check_before_non_null_assertion] 2023-05-18T18:20:44.107574
+[null_check_before_non_null_assertion] 2023-05-18T18:20:51.546435
+[null_check_before_non_null_assertion] 2023-05-18T18:20:51.546923
+[null_check_before_non_null_assertion] 2023-05-18T18:21:19.128947
+[null_check_before_non_null_assertion] 2023-05-18T18:21:19.129276
+[null_check_before_non_null_assertion] 2023-05-18T18:21:19.137983
+[null_check_before_non_null_assertion] 2023-05-18T18:21:19.138210
+[null_check_before_non_null_assertion] 2023-05-18T18:21:22.096488
+[null_check_before_non_null_assertion] 2023-05-18T18:21:22.096851
+[null_check_before_non_null_assertion] 2023-05-18T18:24:52.018977
+[null_check_before_non_null_assertion] 2023-05-18T18:24:52.019275
+[null_check_before_non_null_assertion] 2023-05-18T18:24:56.401607
+[null_check_before_non_null_assertion] 2023-05-18T18:24:56.401992
+[null_check_before_non_null_assertion] 2023-05-18T18:24:56.732304
+[null_check_before_non_null_assertion] 2023-05-18T18:24:56.732561
+[null_check_before_non_null_assertion] 2023-05-18T18:29:09.490015
+[null_check_before_non_null_assertion] 2023-05-18T18:29:09.490234
+[null_check_before_non_null_assertion] 2023-05-18T18:29:35.567120
+[null_check_before_non_null_assertion] 2023-05-18T18:29:35.567368
+[null_check_before_non_null_assertion] 2023-05-18T18:30:17.844817
+[null_check_before_non_null_assertion] 2023-05-18T18:30:17.845129
+[null_check_before_non_null_assertion] 2023-05-18T18:30:17.855068
+[null_check_before_non_null_assertion] 2023-05-18T18:30:17.855349
+[null_check_before_non_null_assertion] 2023-05-18T18:30:32.974874
+[null_check_before_non_null_assertion] 2023-05-18T18:30:32.975239
+[null_check_before_non_null_assertion] 2023-05-18T18:39:14.808863
+[null_check_before_non_null_assertion] 2023-05-18T18:39:14.809194
+[null_check_before_non_null_assertion] 2023-05-18T18:39:14.826707
+[null_check_before_non_null_assertion] 2023-05-18T18:39:14.827018
+[null_check_before_non_null_assertion] 2023-05-18T18:40:38.084903
+[null_check_before_non_null_assertion] 2023-05-18T18:40:38.085212
+[null_check_before_non_null_assertion] 2023-05-18T18:40:38.088917
+[null_check_before_non_null_assertion] 2023-05-18T18:40:38.089151
+[null_check_before_non_null_assertion] 2023-05-18T18:40:46.243207
+[null_check_before_non_null_assertion] 2023-05-18T18:40:46.243583
+[null_check_before_non_null_assertion] 2023-05-18T18:41:05.464987
+[null_check_before_non_null_assertion] 2023-05-18T18:41:05.465335
+[null_check_before_non_null_assertion] 2023-05-18T18:41:05.469398
+[null_check_before_non_null_assertion] 2023-05-18T18:41:05.469635
+[null_check_before_non_null_assertion] 2023-05-18T18:41:07.996891
+[null_check_before_non_null_assertion] 2023-05-18T18:41:07.997152
+[null_check_before_non_null_assertion] 2023-05-18T18:41:26.526107
+[null_check_before_non_null_assertion] 2023-05-18T18:41:26.526457
+[null_check_before_non_null_assertion] 2023-05-18T18:41:26.534741
+[null_check_before_non_null_assertion] 2023-05-18T18:41:26.534980
+[null_check_before_non_null_assertion] 2023-05-18T18:41:29.969468
+[null_check_before_non_null_assertion] 2023-05-18T18:41:29.969819
+[null_check_before_non_null_assertion] 2023-05-18T18:41:46.182381
+[null_check_before_non_null_assertion] 2023-05-18T18:41:46.182839
+[null_check_before_non_null_assertion] 2023-05-18T18:41:46.193088
+[null_check_before_non_null_assertion] 2023-05-18T18:41:46.193352
+[null_check_before_non_null_assertion] 2023-05-18T18:41:48.778897
+[null_check_before_non_null_assertion] 2023-05-18T18:41:48.779269
+[null_check_before_non_null_assertion] 2023-05-18T18:44:22.538033
+[null_check_before_non_null_assertion] 2023-05-18T18:44:22.538320
+[null_check_before_non_null_assertion] 2023-05-18T18:44:22.543136
+[null_check_before_non_null_assertion] 2023-05-18T18:44:22.543370
+[null_check_before_non_null_assertion] 2023-05-18T18:46:24.772451
+[null_check_before_non_null_assertion] 2023-05-18T18:46:24.772789
+[null_check_before_non_null_assertion] 2023-05-18T18:46:24.778597
+[null_check_before_non_null_assertion] 2023-05-18T18:46:24.778856
+[null_check_before_non_null_assertion] 2023-05-18T18:46:43.890320
+[null_check_before_non_null_assertion] 2023-05-18T18:46:43.890692
+[null_check_before_non_null_assertion] 2023-05-18T18:46:43.898689
+[null_check_before_non_null_assertion] 2023-05-18T18:46:43.898919
+[null_check_before_non_null_assertion] 2023-05-18T18:46:47.148888
+[null_check_before_non_null_assertion] 2023-05-18T18:46:47.149260
+[null_check_before_non_null_assertion] 2023-05-18T18:47:33.548237
+[null_check_before_non_null_assertion] 2023-05-18T18:47:33.548554
+[null_check_before_non_null_assertion] 2023-05-18T18:47:33.553754
+[null_check_before_non_null_assertion] 2023-05-18T18:47:33.554041
+[custom_lint] 2023-05-18T19:02:13.209999 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:44:77: Warning: Operand of null-aware operation '??' has type 'bool' which excludes null.
+[custom_lint] 2023-05-18T19:02:13.209999           final isProperAccess = rightOperand.staticType?.nullabilitySuffix == NullabilitySuffix.star ?? false;
+[custom_lint] 2023-05-18T19:02:13.209999                                                                             ^
+[custom_lint] 2023-05-18T19:02:13.209999
+[custom_lint] 2023-05-18T19:02:13.210266 /Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/null_check_lint/lib/null_check_lint.dart:44:77: Warning: Operand of null-aware operation '??' has type 'bool' which excludes null.
+[custom_lint] 2023-05-18T19:02:13.210266           final isProperAccess = rightOperand.staticType?.nullabilitySuffix == NullabilitySuffix.star ?? false;
+[custom_lint] 2023-05-18T19:02:13.210266                                                                             ^
+[custom_lint] 2023-05-18T19:02:13.210266
+[custom_lint] 2023-05-18T19:02:13.210639
+[custom_lint] 2023-05-18T19:02:13.210639
+[custom_lint] 2023-05-18T19:02:13.210639
+[custom_lint] 2023-05-18T19:02:13.211098
+[custom_lint] 2023-05-18T19:02:13.211098
+[custom_lint] 2023-05-18T19:02:13.211098
+[null_check_before_non_null_assertion] 2023-05-18T19:02:53.049125
+[null_check_before_non_null_assertion] 2023-05-18T19:02:53.049437
+[null_check_before_non_null_assertion] 2023-05-18T19:02:53.057962
+[null_check_before_non_null_assertion] 2023-05-18T19:02:53.058189
+[null_check_before_non_null_assertion] 2023-05-18T19:04:12.684569
+[null_check_before_non_null_assertion] 2023-05-18T19:04:12.684907
+[null_check_before_non_null_assertion] 2023-05-18T19:04:12.693029
+[null_check_before_non_null_assertion] 2023-05-18T19:04:12.693244
+[null_check_before_non_null_assertion] 2023-05-18T19:04:14.713049
+[null_check_before_non_null_assertion] 2023-05-18T19:04:14.713506
+[null_check_before_non_null_assertion] 2023-05-18T19:04:15.975859
+[null_check_before_non_null_assertion] 2023-05-18T19:04:15.976179
+[null_check_before_non_null_assertion] 2023-05-18T19:04:16.269555
+[null_check_before_non_null_assertion] 2023-05-18T19:04:16.269978
+[null_check_before_non_null_assertion] 2023-05-18T19:04:16.519150
+[null_check_before_non_null_assertion] 2023-05-18T19:04:16.519485
+[null_check_before_non_null_assertion] 2023-05-18T19:04:19.308890
+[null_check_before_non_null_assertion] 2023-05-18T19:04:19.309293
+[null_check_before_non_null_assertion] 2023-05-18T19:04:25.391998
+[null_check_before_non_null_assertion] 2023-05-18T19:04:25.392304
+[null_check_before_non_null_assertion] 2023-05-18T19:04:25.395551
+[null_check_before_non_null_assertion] 2023-05-18T19:04:25.395812
+[null_check_before_non_null_assertion] 2023-05-18T19:04:27.508611
+[null_check_before_non_null_assertion] 2023-05-18T19:04:27.508952
+[null_check_before_non_null_assertion] 2023-05-18T19:04:28.433853
+[null_check_before_non_null_assertion] 2023-05-18T19:04:28.434522
+[null_check_before_non_null_assertion] 2023-05-18T19:04:28.740986
+[null_check_before_non_null_assertion] 2023-05-18T19:04:28.741256
+[null_check_before_non_null_assertion] 2023-05-18T19:26:29.914814
+[null_check_before_non_null_assertion] 2023-05-18T19:26:29.915124
+[null_check_before_non_null_assertion] 2023-05-18T19:26:29.919652
+[null_check_before_non_null_assertion] 2023-05-18T19:26:29.919900
+[null_check_before_non_null_assertion] 2023-05-18T19:26:32.415277
+[null_check_before_non_null_assertion] 2023-05-18T19:26:32.415644
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.458768
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.459217
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.643532
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.644111
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.811452
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.811746
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.966190
+[null_check_before_non_null_assertion] 2023-05-18T19:26:33.966465
+[null_check_before_non_null_assertion] 2023-05-18T19:26:34.108658
+[null_check_before_non_null_assertion] 2023-05-18T19:26:34.109100
