@@ -193,10 +193,10 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
-  null_check_lint_example:
+  null_check_lint:
     dependency: "direct dev"
     description:
-      path: null_check_lint_example
+      path: null_check_lint
       relative: true
     source: path
     version: "0.0.3"

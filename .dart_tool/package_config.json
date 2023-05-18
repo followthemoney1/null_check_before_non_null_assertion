@@ -146,8 +146,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "null_check_lint_example",
-      "rootUri": "../null_check_lint_example",
+      "name": "null_check_lint",
+      "rootUri": "../null_check_lint",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -260,7 +260,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-05-18T15:36:45.832331Z",
+  "generated": "2023-05-18T15:37:58.987888Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
