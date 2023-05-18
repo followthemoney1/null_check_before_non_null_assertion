@@ -32,35 +32,12 @@ class NullCheckBeforeNonNullAssertion extends DartLintRule {
 
   @override
   void run(CustomLintResolver resolver, ErrorReporter reporter, CustomLintContext context) {
-    List<dynamic> latestVariable = [];
+    bool expressionExist = false;
     context.registry.addIfStatement((node) {
       final condition = node.expression;
-      if (condition is BinaryExpression) {
-        final leftOperand = condition.leftOperand;
-        final rightOperand = condition.rightOperand;
-
-        if (leftOperand is SimpleIdentifier) {
-          //mark: checking the tpe of expression, if type is not equall [!=]
-          final isProperAccess = condition.;
-
-          final reqOperators = [
-            // TokenType.BANG_EQ,
-            // TokenType.QUESTION,
-            // TokenType.BANG_EQ,
-            // TokenType.EQ_EQ,
-            // TokenType.QUESTION,
-            // TokenType.QUESTION_PERIOD,
-            // TokenType.QUESTION_QUESTION,
-            TokenType.all
-          ].contains(condition.operator.type);
-          final additionalParams = rightOperand is Null;
-          if (isProperAccess) {
-            //!reqOperators || additionalParams ||
-            latestVariable.add(leftOperand.name);
-          } else {
-            latestVariable.remove(leftOperand.name);
-          }
-        }
+      if (condition is Expression) {
+        expressionExist = true;
+        //!reqOperators || additionalParams ||
       }
     });
     //else we doing check
@@ -71,11 +48,9 @@ class NullCheckBeforeNonNullAssertion extends DartLintRule {
         if (element is VariableElement) {
           final offset = node.operator.offset;
           final length = node.operator.length;
-          if (!latestVariable.contains(operand.name))
+          if (!expressionExist)
             // final sourceRange = SourceRange(offset, length);
             reporter.reportErrorForOffset(code, offset, length);
-          else
-            print('');
         }
       }
     });
