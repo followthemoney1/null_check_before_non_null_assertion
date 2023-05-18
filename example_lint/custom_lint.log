@@ -1,0 +1,324 @@
+The Dart VM service is listening on http://127.0.0.1:60081/579QYUjheZs=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:60081/579QYUjheZs=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A60081%2F579QYUjheZs%3D%2Fws
+[custom_lint] 2023-05-18T15:12:31.417436 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_checkable_lint/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:12:31.417436 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:12:31.417436        ^
+[custom_lint] 2023-05-18T15:12:31.417436 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:12:31.417436     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:12:31.417436                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:12:31.417436
+[custom_lint] 2023-05-18T15:12:31.417436
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:60265/8m3AQERx1lE=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:60265/8m3AQERx1lE=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A60265%2F8m3AQERx1lE%3D%2Fws
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+UnimplementedError
+at:
+#0      SocketCustomLintServerToClientChannel.setContextRoots (package:custom_lint/src/v2/server_to_client_channel.dart:153:5)
+#1      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:340:35)
+#2      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:15)
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:18:22)
+#4      CustomLintServer._handleAnalysisSetContextRoots (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:325:15)
+#5      RequestX.when (package:custom_lint/src/request_extension.dart:144:47)
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:36)
+#7      _rootRunUnary (dart:async/zone.dart:1406:47)
+#8      _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#9      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#10     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#11     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#12     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)
+#13     _MapStream._handleData (dart:async/stream_pipe.dart:218:10)
+#14     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)
+#15     _rootRunUnary (dart:async/zone.dart:1406:47)
+#16     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#17     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#18     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#19     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#20     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)
+#21     _MapStream._handleData (dart:async/stream_pipe.dart:218:10)
+#22     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)
+#23     _rootRunUnary (dart:async/zone.dart:1406:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#28     _SyncBroadcastStreamController._sendData (dart:async/broadcast_stream_controller.dart:377:25)
+#29     _BroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:244:5)
+#30     _AsBroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:474:11)
+#31     _rootRunUnary (dart:async/zone.dart:1414:13)
+#32     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#33     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#34     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#35     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#36     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:774:19)
+#37     _StreamController._add (dart:async/stream_controller.dart:648:7)
+#38     _StreamController.add (dart:async/stream_controller.dart:596:5)
+#39     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:192:26)
+
+The Dart VM service is listening on http://127.0.0.1:60385/Qh6rmuwEmBQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:60385/Qh6rmuwEmBQ=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A60385%2FQh6rmuwEmBQ%3D%2Fws
+[custom_lint] 2023-05-18T15:13:26.976203 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_checkable_lint/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:13:26.976203 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:13:26.976203        ^
+[custom_lint] 2023-05-18T15:13:26.976203 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:13:26.976203     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:13:26.976203                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:13:26.976203
+[custom_lint] 2023-05-18T15:13:26.976203
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:60493/BWv7_dpv6BI=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:60493/BWv7_dpv6BI=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A60493%2FBWv7_dpv6BI%3D%2Fws
+[custom_lint] 2023-05-18T15:13:55.708023 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_checkable_lint/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:13:55.708023 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:13:55.708023        ^
+[custom_lint] 2023-05-18T15:13:55.708023 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:13:55.708023     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:13:55.708023                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:13:55.708023
+[custom_lint] 2023-05-18T15:13:55.708023
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:60604/QtMgBSeW6iQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:60604/QtMgBSeW6iQ=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A60604%2FQtMgBSeW6iQ%3D%2Fws
+[custom_lint] 2023-05-18T15:14:21.162521 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_checkable_lint/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:14:21.162521 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:14:21.162521        ^
+[custom_lint] 2023-05-18T15:14:21.162521 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:14:21.162521     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:14:21.162521                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:14:21.162521
+[custom_lint] 2023-05-18T15:14:21.162521
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:60710/7T35E-QJHwM=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:60710/7T35E-QJHwM=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A60710%2F7T35E-QJHwM%3D%2Fws
+[custom_lint] 2023-05-18T15:14:55.888608 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_checkable_lint/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:14:55.888608 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:14:55.888608        ^
+[custom_lint] 2023-05-18T15:14:55.888608 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:14:55.888608     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:14:55.888608                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:14:55.888608
+[custom_lint] 2023-05-18T15:14:55.888608
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:61049/3VT2dKDkMY4=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61049/3VT2dKDkMY4=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A61049%2F3VT2dKDkMY4%3D%2Fws
+[custom_lint] 2023-05-18T15:16:27.982218 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_checkable_lint/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:16:27.982218 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:16:27.982218        ^
+[custom_lint] 2023-05-18T15:16:27.982218 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:16:27.982218     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:16:27.982218                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:16:27.982218
+[custom_lint] 2023-05-18T15:16:27.982218
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:61200/mJQMsOCw-pc=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61200/mJQMsOCw-pc=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A61200%2FmJQMsOCw-pc%3D%2Fws
+[custom_lint] 2023-05-18T15:17:13.494345 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:17:13.494345 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:17:13.494345        ^
+[custom_lint] 2023-05-18T15:17:13.494345 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:17:13.494345     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:17:13.494345                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:17:13.494345
+[custom_lint] 2023-05-18T15:17:13.494345
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:61275/9Kyie_lPWgk=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61275/9Kyie_lPWgk=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A61275%2F9Kyie_lPWgk%3D%2Fws
+[custom_lint] 2023-05-18T15:17:44.235004 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:17:44.235004 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:17:44.235004        ^
+[custom_lint] 2023-05-18T15:17:44.235004 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:17:44.235004     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:17:44.235004                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:17:44.235004
+[custom_lint] 2023-05-18T15:17:44.235004
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+[custom_lint] 2023-05-18T15:17:48.110922 lib/custom_lint_client.dart:4:8: Error: Error when reading '/Users/dmitrydyachenko/Downloads/null_check_before_non_null_assertion/example_lint/lib/custom_lint_example_lint.dart': No such file or directory
+[custom_lint] 2023-05-18T15:17:48.110922 import 'package:custom_lint_example_lint/custom_lint_example_lint.dart' as custom_lint_example_lint;
+[custom_lint] 2023-05-18T15:17:48.110922        ^
+[custom_lint] 2023-05-18T15:17:48.110922 lib/custom_lint_client.dart:13:59: Error: Undefined name 'createPlugin'.
+[custom_lint] 2023-05-18T15:17:48.110922     {'custom_lint_example_lint': custom_lint_example_lint.createPlugin,
+[custom_lint] 2023-05-18T15:17:48.110922                                                           ^^^^^^^^^^^^
+[custom_lint] 2023-05-18T15:17:48.110922
+[custom_lint] 2023-05-18T15:17:48.110922
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)
+<asynchronous suspension>
+#1      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+[custom_lint] 2023-05-18T15:17:48.147249 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"Bad state: Failed to start the plugins.","stackTrace":"#0      SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:227:11)\n<asynchronous suspension>\n#1      Future.any.onValue (dart:async/future.dart:612:5)\n<asynchronous suspension>\n"}
+[custom_lint] 2023-05-18T15:17:48.147249 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2023-05-18T15:17:48.147249 <asynchronous suspension>
+[custom_lint] 2023-05-18T15:17:48.147249 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2023-05-18T15:17:48.147249 <asynchronous suspension>
+[custom_lint] 2023-05-18T15:17:48.147249 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:82:7)
+[custom_lint] 2023-05-18T15:17:48.147249 <asynchronous suspension>
+[custom_lint] 2023-05-18T15:17:48.147249
+The Dart VM service is listening on http://127.0.0.1:61590/-MwcUsMeEFY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61590/-MwcUsMeEFY=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A61590%2F-MwcUsMeEFY%3D%2Fws
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+UnimplementedError
+at:
+#0      SocketCustomLintServerToClientChannel.setContextRoots (package:custom_lint/src/v2/server_to_client_channel.dart:153:5)
+#1      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:340:35)
+#2      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:15)
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:18:22)
+#4      CustomLintServer._handleAnalysisSetContextRoots (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:325:15)
+#5      RequestX.when (package:custom_lint/src/request_extension.dart:144:47)
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:36)
+#7      _rootRunUnary (dart:async/zone.dart:1406:47)
+#8      _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#9      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#10     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#11     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#12     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)
+#13     _MapStream._handleData (dart:async/stream_pipe.dart:218:10)
+#14     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)
+#15     _rootRunUnary (dart:async/zone.dart:1406:47)
+#16     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#17     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#18     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#19     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#20     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)
+#21     _MapStream._handleData (dart:async/stream_pipe.dart:218:10)
+#22     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)
+#23     _rootRunUnary (dart:async/zone.dart:1406:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#28     _SyncBroadcastStreamController._sendData (dart:async/broadcast_stream_controller.dart:377:25)
+#29     _BroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:244:5)
+#30     _AsBroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:474:11)
+#31     _rootRunUnary (dart:async/zone.dart:1414:13)
+#32     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#33     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#34     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#35     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#36     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:774:19)
+#37     _StreamController._add (dart:async/stream_controller.dart:648:7)
+#38     _StreamController.add (dart:async/stream_controller.dart:596:5)
+#39     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:192:26)
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+UnimplementedError
+at:
+#0      SocketCustomLintServerToClientChannel.setContextRoots (package:custom_lint/src/v2/server_to_client_channel.dart:153:5)
+#1      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:340:35)
+#2      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:15)
+#3      PendingOperation.run (package:custom_lint/src/async_operation.dart:18:22)
+#4      CustomLintServer._handleAnalysisSetContextRoots (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:325:15)
+#5      RequestX.when (package:custom_lint/src/request_extension.dart:144:47)
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:36)
+#7      _rootRunUnary (dart:async/zone.dart:1406:47)
+#8      _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#9      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#10     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#11     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#12     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)
+#13     _MapStream._handleData (dart:async/stream_pipe.dart:218:10)
+#14     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)
+#15     _rootRunUnary (dart:async/zone.dart:1406:47)
+#16     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#17     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#18     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#19     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#20     _ForwardingStreamSubscription._add (dart:async/stream_pipe.dart:123:11)
+#21     _MapStream._handleData (dart:async/stream_pipe.dart:218:10)
+#22     _ForwardingStreamSubscription._handleData (dart:async/stream_pipe.dart:153:13)
+#23     _rootRunUnary (dart:async/zone.dart:1406:47)
+#24     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#25     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#26     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#27     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#28     _SyncBroadcastStreamController._sendData (dart:async/broadcast_stream_controller.dart:377:25)
+#29     _BroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:244:5)
+#30     _AsBroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:474:11)
+#31     _rootRunUnary (dart:async/zone.dart:1414:13)
+#32     _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+#33     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1216:7)
+#34     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:339:11)
+#35     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:271:7)
+#36     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:774:19)
+#37     _StreamController._add (dart:async/stream_controller.dart:648:7)
+#38     _StreamController.add (dart:async/stream_controller.dart:596:5)
+#39     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:192:26)
+
+The Dart VM service is listening on http://127.0.0.1:61926/zRc2Wm1SvjI=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:61926/zRc2Wm1SvjI=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A61926%2FzRc2Wm1SvjI%3D%2Fws
+[null_check_before_non_null_assertion] 2023-05-18T15:20:58.618925
+[null_check_before_non_null_assertion] 2023-05-18T15:20:58.716564
+[null_check_before_non_null_assertion] 2023-05-18T15:20:59.431782
+[null_check_before_non_null_assertion] 2023-05-18T15:21:00.269882
+[null_check_before_non_null_assertion] 2023-05-18T15:21:01.042987
+[null_check_before_non_null_assertion] 2023-05-18T15:21:01.399044

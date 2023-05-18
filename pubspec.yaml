@@ -1,0 +1,18 @@
+name: null_check_before_non_null_assertion
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies:
+
+dev_dependencies:
+  custom_lint:
+  null_check_lint_example:
+    path: ./example_lint
+
+dependency_overrides:
+  custom_lint: 0.4.0
+  custom_lint_builder: ^0.4.0
+  custom_lint_core: ^0.4.0
