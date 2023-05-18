@@ -414,3 +414,5 @@ at:
 #38     _StreamController.add (dart:async/stream_controller.dart:596:5)
 #39     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:192:26)
 
+The Dart VM service is listening on http://127.0.0.1:63295/-V2QRg7B9f0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:63295/-V2QRg7B9f0=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A63295%2F-V2QRg7B9f0%3D%2Fws
