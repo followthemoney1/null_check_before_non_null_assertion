@@ -40,6 +40,13 @@ class NullCheckBeforeNonNullAssertion extends DartLintRule {
         //!reqOperators || additionalParams ||
       }
     });
+    context.registry.addIfElement((node) {
+      final condition = node.expression;
+      if (condition is Expression) {
+        expressionExist = true;
+        //!reqOperators || additionalParams ||
+      }
+    });
     //else we doing check
     context.registry.addPostfixExpression((node) {
       if (node.operator.lexeme == '!' && node.operand is SimpleIdentifier) {

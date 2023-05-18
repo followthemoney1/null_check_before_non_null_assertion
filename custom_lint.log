@@ -1074,3 +1074,5 @@ The Dart DevTools debugger and profiler is available at: http://127.0.0.1:59932/
 [null_check_before_non_null_assertion] 2023-05-18T20:19:54.857405
 [null_check_before_non_null_assertion] 2023-05-18T20:19:54.857493
 [null_check_before_non_null_assertion] 2023-05-18T20:19:54.857573
+The Dart VM service is listening on http://127.0.0.1:53254/wAcU0Iq3-AA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53254/wAcU0Iq3-AA=/devtools/#/?uri=ws%3A%2F%2F127.0.0.1%3A53254%2FwAcU0Iq3-AA%3D%2Fws

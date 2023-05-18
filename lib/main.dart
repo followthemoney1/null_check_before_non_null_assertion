@@ -4,6 +4,9 @@ void main() {
   int? s;
   s!.hashCode;
 
+  String? giftCode;
+  final s2 = giftCode != null ? giftCode : '';
+
   if (s != null) {
     s.hashCode;
   }
