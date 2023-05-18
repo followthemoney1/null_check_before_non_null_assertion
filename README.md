@@ -19,3 +19,5 @@ The problem being addressed in this thread is the development of a custom lint r
 
 # Example 
 
+https://github.com/followthemoney1/null_check_before_non_null_assertion/assets/8526612/828e2366-3387-479e-ac59-0a5af3ffc466
+
