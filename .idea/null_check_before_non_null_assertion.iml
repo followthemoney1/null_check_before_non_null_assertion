@@ -6,9 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
-      <excludeFolder url="file://$MODULE_DIR$/example_lint/build" />
-      <excludeFolder url="file://$MODULE_DIR$/example_lint/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/example_lint/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/null_check_lint_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/null_check_lint_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/null_check_lint_example/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

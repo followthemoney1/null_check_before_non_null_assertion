@@ -196,7 +196,7 @@ packages:
   null_check_lint_example:
     dependency: "direct dev"
     description:
-      path: example_lint
+      path: null_check_lint_example
       relative: true
     source: path
     version: "0.0.3"

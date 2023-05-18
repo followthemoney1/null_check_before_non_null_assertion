@@ -17,4 +17,3 @@ linter:
   rules:
     public_member_api_docs: false
     avoid_print: false
-    null_check_before_non_null_assertion: true

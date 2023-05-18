@@ -10,7 +10,7 @@ dependencies:
 dev_dependencies:
   custom_lint:
   null_check_lint_example:
-    path: ./example_lint
+    path: ./null_check_lint_example
 
 dependency_overrides:
   custom_lint: 0.4.0
