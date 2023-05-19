@@ -25,7 +25,7 @@ class NullCheckBeforeNonNullAssertion extends DartLintRule {
   NullCheckBeforeNonNullAssertion() : super(code: _lintCode);
 
   static const _lintCode = LintCode(
-    name: 'null_check_before_non_null_assertion',
+    name: 'null_check_lint_code',
     problemMessage: 'Use `if(s!=null) s?.length;` instead of `s!.length;`',
     errorSeverity: ErrorSeverity.ERROR,
   );

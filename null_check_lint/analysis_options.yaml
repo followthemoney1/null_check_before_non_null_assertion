@@ -4,5 +4,4 @@
    plugins:
      - custom_lint
  linter:
-   rules:
-     null_check_on_nullable_type_parameter: true
+
