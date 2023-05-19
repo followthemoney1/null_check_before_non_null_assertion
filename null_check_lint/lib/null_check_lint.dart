@@ -17,8 +17,8 @@ class _NullCheckableLint extends PluginBase {
         NullCheckBeforeNonNullAssertion(),
       ];
 
-  // @override
-  // List<Assist> getAssists() => [];
+  @override
+  List<Assist> getAssists() => [];
 }
 
 class NullCheckBeforeNonNullAssertion extends DartLintRule {

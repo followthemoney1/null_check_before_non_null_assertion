@@ -2,7 +2,7 @@ void main() {
   print('hello world');
 
   int? s;
-  s!.hashCode;
+  s!.bitLength;
 
   String? giftCode;
   final s2 = giftCode != null ? giftCode : '';
